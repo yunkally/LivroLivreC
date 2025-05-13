@@ -3,7 +3,6 @@ import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity } from 'react
 import { SafeAreaView } from 'react-native-safe-area-context';
 import booksData from '../assets/books.json';
 
-// Mapeamento estático necessário para evitar erro no require
 const imageMap = {
   "Livro1.jpg": require('../assets/Livro1.jpg'),
   "Livro2.jpg": require('../assets/Livro2.jpg'),
