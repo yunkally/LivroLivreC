@@ -10,7 +10,6 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import booksData from '../assets/books.json';
 
-// Mapeamento estático de imagens
 const imageMap = {
   "Livro1.jpg": require('../assets/Livro1.jpg'),
   "Livro2.jpg": require('../assets/Livro2.jpg'),
@@ -29,7 +28,7 @@ const FavoriteScreen = () => {
   const [selectedAge, setSelectedAge] = useState('Todas');
 
   useEffect(() => {
-    setBooks(booksData); // Você pode aplicar filtros aqui futuramente
+    setBooks(booksData); // podemos aplicar filtros aqui futuramente
   }, [selectedGenre, selectedAge]);
 
   const renderBook = ({ item }) => (
