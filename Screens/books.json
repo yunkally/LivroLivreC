@@ -1,0 +1,39 @@
+[
+    {
+      "id": "1",
+      "title": "É Assim Que Acaba",
+      "image": "Livro1.jpg",
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "title": "A Biblioteca da Meia-Noite",
+      "image": "Livro2.jpg",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter e o Enigma do Príncipe",
+      "image": "Livro3.jpg",
+      "rating": 4
+    },
+    {
+      "id": "4",
+      "title": "Agora que Você Está Aqui",
+      "image": "Livro4.jpg",
+      "rating": 3
+    },
+    {
+      "id": "5",
+      "title": "A Revolução dos Bichos",
+      "image": "Livro5.jpg",
+      "rating": 5
+    },
+    {
+      "id": "6",
+      "title": "The Red Hot Chili Peppers Story",
+      "image": "Livro6.jpg",
+      "rating": 4
+    }
+  ]
+  
